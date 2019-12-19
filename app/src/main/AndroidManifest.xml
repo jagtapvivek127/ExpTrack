@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.webfarmatics.exptrack">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivitySplash"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ActivitySelectLanguage" />
+
+        <activity
+            android:name=".ActivityAppLogin"
+            android:label="@string/loginAct" />
+
+        <activity
+            android:name=".ActivitySignUp"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".ActivityCopyRights"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".ActivityDashboard"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".ActivityBank"
+            android:label="@string/bankAct" />
+
+        <activity
+            android:name=".ActivityWallet"
+            android:label="@string/walletAct" />
+
+        <activity
+            android:name=".ActivityAddExpenses"
+            android:label="@string/purchaseAct" />
+
+        <activity
+            android:name=".ActivityGraphDetails"
+            android:label="@string/purDetAct" />
+
+        <activity
+            android:name=".ActivityTransactionList"
+            android:label="@string/transactionsListAct" />
+
+
+        <activity
+            android:name=".ActivityTransactionListOne"
+            android:label="@string/transactionsListAct" />
+
+
+        <activity
+            android:name=".ActivityTransactionListTwo"
+            android:label="@string/transactionsListAct" />
+
+        <activity
+            android:name=".ActivityTransactionDetails"
+            android:label="@string/transDet" />
+
+        <activity
+            android:name=".ActivityLoan"
+            android:label="@string/loanAct" />
+
+        <activity
+            android:name=".ActivitySaveLoanDetails"
+            android:label="@string/addLoanDet" />
+
+        <activity
+            android:name=".ActivityClearBatchTransaction"
+            android:label="@string/clearTrBatAct" />
+
+        <activity
+            android:name=".ActivityClearSingleTransaction"
+            android:label="@string/clearSinTrAct" />
+
+        <activity
+            android:name=".ActivityClearLoanDetails"
+            android:label="@string/clearLoDetAct" />
+
+        <activity
+            android:name=".ActivityLoanDetails"
+            android:label="@string/loanDetAct" />
+
+        <activity
+            android:name=".ActivityChangeItemsPriority"
+            android:label="@string/cngItmPri" />
+
+        <activity
+            android:name=".ActivityFeedback"
+            android:label="@string/feedAct" />
+
+        <activity
+            android:name=".ActivityMonthExpenses"
+            android:label="@string/allMntDetAct" />
+
+        <activity
+            android:name=".ActivitySaveSplitBill"
+            android:label="@string/splitBillAct" />
+
+        <activity
+            android:name=".ActivitySplitBillList"
+            android:label="@string/splitBillListAct" />
+
+
+        <activity
+            android:name=".ActivityClearSingleSplitBill"
+            android:label="@string/splitBillListAct" />
+
+        <activity
+            android:name=".ActivitySettleSplitBill"
+            android:label="@string/splitBillListAct" />
+
+        <activity
+            android:name=".ActivityClearSingleMonthExpenses"
+            android:label="@string/clearSinTrAct" />
+
+        <activity
+            android:name=".ActivityAboutUs"
+            android:label="@string/about_us" />
+
+        <activity android:name=".ActivityMonthExpensesDetails"
+            android:label="@string/expense_det"/>
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3417932029149162~3544947789" />
+
+    </application>
+
+</manifest>

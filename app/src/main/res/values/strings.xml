@@ -1,0 +1,234 @@
+<resources>
+
+    <string name="app_name">ExpTrack</string>
+
+    <string name="bankAct">My Bank</string>
+    <string name="walletAct">Wallet</string>
+    <string name="loginAct">Login</string>
+
+    <string name="signupAct">Daily Trades</string>
+    <string name="mainAct">Daily Trades</string>
+    <string name="purchaseAct">Add Expense</string>
+    <string name="purDetAct">Monthly Graph</string>
+    <string name="transactionsListAct">Transactions List</string>
+    <string name="transDet">Transactions Details</string>
+    <string name="loanAct">Loan Details</string>
+    <string name="addLoanDet">Add Loan</string>
+    <string name="clearTrBatAct">Clear Transactions</string>
+    <string name="clearSinTrAct">Clear Single</string>
+    <string name="clearLoDetAct">Clear Loan</string>
+    <string name="loanDetAct">Loan Details</string>
+    <string name="cngItmPri">Item Priority</string>
+    <string name="feedAct">Feedback</string>
+    <string name="allMntDetAct">Monthly Expenses</string>
+    <string name="splitBillAct">Split Bill</string>
+    <string name="splitBillListAct">Spilt Bill</string>
+
+    <string name="amount">amount</string>
+    <string name="rupee_sign">₹ </string>
+
+    <string name="bank_advice">Add money to your wallet.</string>
+    <string name="verifying_warning1">We will be recommend you to use</string>
+    <string name="verifying_warning2">save and clear option after few transactions</string>
+    <string name="verifying_warning3">or after some period like month etc</string>
+    <string name="verifying_warning4">would you like to proceed?</string>
+
+    <string name="paid">paid</string>
+
+    <string name="update">Update</string>
+
+    <!--Main Act-->
+    <string name="expense">Add Expense</string>
+    <string name="expense_det">Expenses Details</string>
+    <string name="graph_details">Monthly Graph</string>
+    <string name="my_bank">My Bank</string>
+    <string name="wallet">Wallet</string>
+    <string name="loan_details">Loan Details</string>
+    <string name="daily_trans">Transactions</string>
+    <string name="monthly">Monthly</string>
+    <string name="details">Details</string>
+    <string name="split_bill">Split Bill</string>
+    <string name="about_us">About Us</string>
+
+
+    <string name="do_add_expn">Do you want to save an expense?</string>
+    <string name="provide_det_following">Please provide details in the following.</string>
+    <string name="exp_amount">Amount</string>
+    <string name="pay_date">Payment Date</string>
+    <string name="item">Item</string>
+    <string name="new_item1">New</string>
+    <string name="new_item2">Item</string>
+    <string name="item_name">Item name</string>
+    <string name="add_this_item_list">Add this Item to Items List</string>
+    <string name="comment">Comment</string>
+    <string name="paid_by">Paid By</string>
+    <string name="card">Card</string>
+
+    <!--Loan Act-->
+    <string name="given">Loan Given</string>
+    <string name="taken">Loan Taken</string>
+
+    <!--ActivitySaveLoanDetails-->
+    <string name="name">Name</string>
+    <string name="select_loan_type">Select Loan Type</string>
+    <string name="do_add_loan">Do you want to save loan details?</string>
+
+    <!--UpdateSplitBillAct-->
+    <string name="settle_up">Settle Up</string>
+    <string name="sel_prtc">Select Participant</string>
+    <string name="owes">Owes</string>
+    <string name="split_paid">Paid</string>
+
+    <!--AddSplitAct-->
+    <string name="add_prts">Add Participants</string>
+    <string name="prt_list_hint">Participants List</string>
+    <string name="title">Title</string>
+
+    <!--PurchaseDetailsAct-->
+    <string name="high_pri_hint">Selected Items</string>
+
+    <!--WalletAct-->
+    <string name="avail_bal_hint">AVAILABLE BALANCE</string>
+    <string name="plus_wallet">+ Wallet</string>
+    <string name="plus_bank">+ Bank</string>
+    <string name="plus_new_trns">+ Add Expense</string>
+    <string name="transactions">Transactions</string>
+    <string name="wallet_transactions">Wallet Transactions</string>
+    <string name="bank_transactions">Card Transactions</string>
+
+
+    <!--SelectLangAct-->
+    <string name="english">English</string>
+    <string name="hindi">हिन्दी</string>
+
+    <!--split bill activity-->
+    <string name="add_details">Add Details</string>
+
+
+    <!--Transactions List activity-->
+    <string name="search_trans">Search</string>
+
+
+    <!--home drawer-->
+    <string name="changeLanguage">Change Language</string>
+    <string name="feedback">Feedback</string>
+    <string name="exit">Exit</string>
+    <string name="logout">Logout</string>
+    <string name="aboutus">About Us</string>
+
+    <string name="save">Save</string>
+    <string name="date">Date</string>
+    <string name="return_date">Return Date</string>
+    <string name="no_comment">N/A</string>
+    <string name="add_money">Add money -></string>
+    <string name="add_to_wallet">Add To wallet</string>
+    <string name="proceed_payment">PROCEED PAYMENT</string>
+
+    <string name="add_money_to_bank">Add Money to Bank</string>
+
+    <string name="no_records">No records available..!</string>
+    <string name="clear">Clear</string>
+    <string name="select_item">Select Item</string>
+    <string name="str_continue">Continue</string>
+    <string name="warning">Warning</string>
+    <string name="cancel">Cancel</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="rbr_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="frgt_pwd">forgot password?</string>
+    <string name="wt_nick_nm">What is your Nickname?</string>
+    <string name="nknm">Nickname</string>
+    <string name="submit">Submit</string>
+    <string name="signup_rbr1">*remember the nickname entered.</string>
+    <string name="signup_rbr2">In case of forgot password it will be asked.</string>
+    <string name="sign_up">Sign Up</string>
+
+
+    <!--loan_details_layout-->
+
+    <string name="settle_dw">Settle Down</string>
+    <string name="to_from">To / From</string>
+    <string name="sample_nm">Sam Cook</string>
+    <string name="sample_dt">03/03/1995</string>
+    <string name="sample_amt">1000</string>
+    <string name="sample_cmt">Comment</string>
+
+    <!--loan_details_layout-->
+
+
+    <!--loan_list_single_row-->
+    <string name="sample_time">11 12 PM</string>
+
+    <!--loan_list_single_row-->
+
+
+    <!--month_details_single_row-->
+    <string name="sample_day">31</string>
+    <string name="sample_month">March</string>
+    <string name="sample_year">2015</string>
+
+    <!--month_details_single_row-->
+
+
+    <!--purchase_details_layout-->
+    <string name="next_small">next</string>
+    <string name="skip_small">skip</string>
+
+    <!--purchase_details_layout-->
+
+
+    <!--purchase_layout-->
+    <string name="error_print">error prints here</string>
+
+
+    <!--select_lang_layout-->
+
+    <string name="select_lang">Select Your Language</string>
+
+    <!--select_lang_layout-->
+
+    <!--feedback_layout-->
+    <string name="thank_you">Thank You..</string>
+    <string name="fr_use_app">For using this application.</string>
+    <string name="snd_fed_bk_at">Send Your feedback at</string>
+    <string name="email">email</string>
+    <string name="send_now">Send Now</string>
+
+
+    <!--wallet_layout-->
+    <string name="add_purchase">Add Purchase</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Daily Trades</string>
+    <string name="nav_header_subtitle">jagtapvivek127@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="made_with">Made by #One Studios with :)</string>
+    <string name="copyright">Copyright @ 2018 #One Studios</string>
+
+    <string name="copyright_warning1">The copyright in this application and the material on this application is owned by #One Studios.</string>
+    <string name="copyright_warning2">#One Studios grants to you a worldwide non-exclusive royalty-free revocable license to:</string>
+    <string name="copyright_warning3">- Use this application and the material on this application on a computer or mobile device;</string>
+    <string name="copyright_warning4">- This version copy of application is made available to users for testing purpose only.</string>
+    <string name="copyright_warning5">#One Studios does not grant you any other rights in relation to this application or the material on this application.</string>
+    <string name="copyright_warning6">-In other words, all other rights are reserved.</string>
+    <string name="copyright_warning8">-This is a stand alone application. No data is saved on server or anywhere. The entered data is saved only inside application database. Be careful when clearing cache.</string>
+    <string name="copyright_warning7">-Thank You.</string>
+
+
+    <string name="welcome1">Welcome</string>
+    <string name="welcome2">At #One Studios, we believe everyone deserves to have a application which can help them in their daily life. Innovation and simplicity makes us happy: our goal is to make the applications which are useful for users to making their own life better.</string>
+    <string name="welcome3">We are excited to help you on your journey !</string>
+
+    <string name="one_studios">#One Studios</string>
+
+
+    <string name="ad_unit_id_1">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_unit_id_2">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_unit_id_3">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>

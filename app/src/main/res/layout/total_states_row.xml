@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/margin_10dp"
+    android:paddingTop="@dimen/margin_5dp"
+    android:paddingRight="@dimen/margin_15dp">
+
+    <TextView
+        android:id="@+id/tvStatesT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:text="Apple"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/p1"
+        android:textSize="@dimen/text_size_22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStatesExpT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="Rs 20"
+        android:layout_gravity="start"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/p1"
+        android:textSize="@dimen/text_size_22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
