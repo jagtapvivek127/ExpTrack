@@ -285,8 +285,6 @@ public class ActivityGraphDetails extends AppCompatActivity {
 
         boolean w = database.saveMonthGraphDetails(date);
 
-        database.printMonthGraphDetails();
-
         if (w) {
 
             CommonUtil.setSharePreferenceString(context, GlobalData.LAST_CLEAR_DATE, date);

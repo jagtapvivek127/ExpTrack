@@ -49,7 +49,7 @@ public class ActivityMonthExpensesDetails extends AppCompatActivity {
             TextView tvStates = view2.findViewById(R.id.tvStates);
             TextView tvStatesExp = view2.findViewById(R.id.tvStatesExp);
             tvStates.setText(states.getStatesByDatesList().get(k).getType());
-            tvStatesExp.setText(states.getStatesByDatesList().get(k).getMoneySpend());
+            tvStatesExp.setText("Rs."+states.getStatesByDatesList().get(k).getMoneySpend());
 
             int temp = Integer.parseInt(states.getStatesByDatesList().get(k).getMoneySpend());
             total = total + temp;
@@ -64,7 +64,7 @@ public class ActivityMonthExpensesDetails extends AppCompatActivity {
         TextView tvStates = view2.findViewById(R.id.tvStatesT);
         TextView tvStatesExp = view2.findViewById(R.id.tvStatesExpT);
         tvStates.setText("Total: ");
-        tvStatesExp.setText("" + total);
+        tvStatesExp.setText("Rs." + total);
 
         llMonthExp.addView(view2);
 

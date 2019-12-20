@@ -155,12 +155,9 @@ public class ActivitySplitBillList extends AppCompatActivity {
             String participant = oneItem.getParticipant();
 
             if (!date.equalsIgnoreCase(previousDate) || !title.equalsIgnoreCase(previousTitle)) {
-                Log.e("joker", " ++++     N o t   E q u a l s    ++++  " + date + " + + + " + previousDate);
                 addBeanByDate(title, date);
                 previousDate = date;
                 previousTitle = title;
-            } else {
-                Log.e("joker", " ++++     E q u a l s    ++++  " + date + " + + + " + previousDate);
             }
         }
 
