@@ -45,6 +45,7 @@
                     android:drawablePadding="10dp"
                     android:hint="@string/username"
                     android:paddingLeft="10dp"
+                    android:textColor="@color/t2"
                     android:textSize="18sp" />
 
                 <EditText
@@ -58,6 +59,7 @@
                     android:drawableLeft="@drawable/password_sicon"
                     android:drawablePadding="10dp"
                     android:hint="@string/password"
+                    android:textColor="@color/t2"
                     android:inputType="textPassword"
                     android:paddingLeft="10dp"
                     android:textSize="18sp" />
@@ -69,7 +71,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
                     android:text="@string/rbr_me"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/t3"
                     android:textSize="15sp" />
 
                 <Button
@@ -78,9 +80,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
-                    android:background="@drawable/comment_box"
+                    android:background="@drawable/btn_rounded_primary"
                     android:text="@string/login"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/tw"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -91,6 +93,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/t2"
                     android:text="@string/frgt_pwd" />
 
             </LinearLayout>

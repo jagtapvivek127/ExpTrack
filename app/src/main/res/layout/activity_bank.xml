@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:orientation="vertical">
 
     <LinearLayout
@@ -44,7 +43,7 @@
                         android:layout_gravity="end"
                         android:layout_marginRight="5dp"
                         android:text="@string/avail_bal_hint"
-                        android:textColor="@color/white"
+                        android:textColor="@color/tw"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -54,7 +53,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="end"
                         android:text="@string/rupee_sign"
-                        android:textColor="@color/white"
+                        android:textColor="@color/tw"
                         android:textSize="23sp"
                         android:textStyle="bold" />
 
@@ -89,12 +88,12 @@
                         android:id="@+id/btnAddToWallet"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/margin_40dp"
-                        android:background="@drawable/background_green"
+                        android:background="@drawable/btn_rounded_primary"
                         android:paddingLeft="@dimen/margin_20dp"
                         android:paddingRight="@dimen/margin_20dp"
                         android:text="@string/plus_wallet"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/tw"
                         android:textSize="@dimen/text_size_17sp" />
 
                 </LinearLayout>
@@ -121,12 +120,12 @@
                         android:id="@+id/btnAddToBank"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/margin_40dp"
-                        android:background="@drawable/background_green"
+                        android:background="@drawable/btn_rounded_primary"
                         android:paddingLeft="@dimen/margin_20dp"
                         android:paddingRight="@dimen/margin_20dp"
                         android:text="@string/plus_bank"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/tw"
                         android:textSize="@dimen/text_size_17sp" />
 
                 </LinearLayout>
@@ -154,12 +153,12 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/background_green"
+                    android:background="@drawable/btn_rounded_primary"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:text="@string/plus_new_trns"
                     android:textAllCaps="false"
-                    android:textColor="@color/white"
+                    android:textColor="@color/tw"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -183,7 +182,7 @@
                         android:layout_marginLeft="@dimen/margin_20dp"
                         android:text="@string/bank_transactions"
                         android:textAllCaps="false"
-                        android:textColor="@color/colorPrimaryDark"
+                        android:textColor="@color/t2"
                         android:textSize="@dimen/text_size_20sp" />
 
                 </LinearLayout>
@@ -234,7 +233,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="@string/add_to_wallet"
-                        android:textColor="#444"
+                        android:textColor="@color/t2"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -244,7 +243,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text=""
-                        android:textColor="#444"
+                        android:textColor="@color/t2"
                         android:textSize="14sp"
                         android:textStyle="bold" />
 
@@ -296,7 +295,7 @@
                         android:ems="10"
                         android:hint="@string/amount"
                         android:inputType="number"
-                        android:textColor="@color/text_color"
+                        android:textColor="@color/t3"
                         android:textSize="18sp" />
 
                 </LinearLayout>
@@ -310,7 +309,7 @@
                 android:layout_marginTop="30dp"
                 android:background="@color/colorPrimary"
                 android:text="@string/proceed_payment"
-                android:textColor="#fff"
+                android:textColor="@color/tw"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -349,7 +348,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="@string/add_money_to_bank"
-                        android:textColor="#444"
+                        android:textColor="@color/t2"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -359,7 +358,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text=""
-                        android:textColor="#444"
+                        android:textColor="@color/t2"
                         android:textSize="14sp"
                         android:textStyle="bold" />
 
@@ -411,7 +410,7 @@
                         android:hint="@string/amount"
                         android:inputType="number"
                         android:paddingLeft="10dp"
-                        android:textColor="@color/text_color"
+                        android:textColor="@color/t3"
                         android:textSize="18sp" />
 
                 </LinearLayout>
@@ -425,7 +424,7 @@
                 android:layout_marginTop="30dp"
                 android:background="@color/colorPrimary"
                 android:text="@string/proceed_payment"
-                android:textColor="#fff"
+                android:textColor="@color/tw"
                 android:textStyle="bold" />
 
         </LinearLayout>

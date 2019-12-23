@@ -4,10 +4,17 @@
     <color name="colorPrimaryDark">#3E7EA7</color>
     <color name="colorAccent">#CD6155</color>
 
-    <color name="text_color">#5D6D7E</color>
 
-    <color name="black">#000000</color>
-    <color name="white">#FFFFFF</color>
+    <color name="t1">#458DBE</color>
+    <color name="t2">#566573</color>
+    <color name="t3">#5d6d7e</color>
+    <color name="tw">#FFFFFF</color>
+
+
+    <color name="b1">#458DBE</color>
+    <color name="b2">#566573</color>
+    <color name="b3">#5d6d7e</color>
+
     <color name="red">#e21010</color>
 
     <color name="colorGrey">#9e9e9e</color>
@@ -56,7 +63,6 @@
     <color name="o14">#FE6DA8</color>
     <color name="o15">#EC7063</color>
 
-    <color name="t1">#5d6d7e</color>
     <color name="a1">#34495E</color>
 
     <color name="colorRemHeading">#FF4081</color>

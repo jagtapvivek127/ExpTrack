@@ -2,70 +2,49 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center">
+    android:layout_margin="@dimen/padding_15dp"
+    android:gravity="center"
+    android:orientation="vertical">
 
-    <FrameLayout
+
+    <TextView
+        android:id="@+id/tvThought"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appbar_scrolling_view_behavior"
+        android:textColor="@color/t1"
+        android:textSize="30dp" />
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/img_lord"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/best"
-            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimary" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:gravity="center"
-            android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvAuther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            android:text="auther"
+            android:textColor="@color/t2"
+            android:textSize="20sp" />
 
+    </LinearLayout>
 
-            <TextView
-                android:id="@+id/tvThought"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/appbar_scrolling_view_behavior"
-                android:textColor="@color/t1"
-                android:textSize="30dp" />
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textColor="@color/colorPrimary" />
-
-                <TextView
-                    android:id="@+id/tvAuther"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="3dp"
-                    android:text="auther"
-                    android:textColor="@color/a1"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
-
-            <com.github.ybq.android.spinkit.SpinKitView xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/spin_kit"
-                style="@style/SpinKitView.Wave"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                app:SpinKit_Color="@color/a1" />
-
-        </LinearLayout>
-
-    </FrameLayout>
+    <com.github.ybq.android.spinkit.SpinKitView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.Wave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:SpinKit_Color="@color/t3" />
 
 </LinearLayout>

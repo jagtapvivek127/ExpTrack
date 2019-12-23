@@ -32,7 +32,7 @@ public class ActivityWallet extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wallet);
+        setContentView(R.layout.activity_wallet_one);
 
         initialize();
 

@@ -55,9 +55,6 @@ public class ActivitySplash extends AppCompatActivity {
     }
 
     private void initialize() {
-        Context context = ActivitySplash.this;
-        ImageView img_lord = findViewById(R.id.img_lord);
-        img_lord.setAlpha(0.36f);
         database = AppDatabase.getInstance(this);
         tvThought = findViewById(R.id.tvThought);
         tvAuther = findViewById(R.id.tvAuther);

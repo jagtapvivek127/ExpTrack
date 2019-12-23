@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="@dimen/margin_15dp"
-    android:background="@color/white"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -34,6 +33,7 @@
         android:drawablePadding="10dp"
         android:hint="@string/password"
         android:inputType="textPassword"
+        android:maxLength="5"
         android:paddingLeft="10dp"
         android:textSize="18sp" />
 

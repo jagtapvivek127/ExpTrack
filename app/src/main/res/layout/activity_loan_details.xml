@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/tw"
     android:orientation="vertical">
 
     <LinearLayout
@@ -64,11 +64,11 @@
                             android:layout_width="160dp"
                             android:layout_height="35dp"
                             android:layout_gravity="center"
-                            android:background="@drawable/comment_box"
+                            android:background="@drawable/btn_rounded_primary"
                             android:letterSpacing="0.05"
                             android:text="@string/settle_dw"
                             android:textAllCaps="false"
-                            android:textColor="@color/text_color"
+                            android:textColor="@color/tw"
                             android:textSize="17sp" />
 
                     </LinearLayout>
@@ -177,7 +177,8 @@
                             android:layout_gravity="center_vertical"
                             android:letterSpacing="0.05"
                             android:text="@string/paid"
-                            android:textColor="@color/text_color"
+                            android:textColor="@color/t2"
+                            android:textStyle="bold"
                             android:textSize="17sp" />
 
 
@@ -198,7 +199,7 @@
                                 android:inputType="number"
                                 android:letterSpacing="0.05"
                                 android:paddingLeft="@dimen/margin_10dp"
-                                android:textColor="@color/text_color"
+                                android:textColor="@color/t3"
                                 android:textSize="17sp"
                                 android:textStyle="bold" />
 
@@ -276,8 +277,9 @@
                         android:layout_gravity="center_vertical"
                         android:letterSpacing="0.05"
                         android:text="@string/to_from"
-                        android:textColor="@color/text_color"
-                        android:textSize="17sp" />
+                        android:textColor="@color/t2"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/tvType"
@@ -286,9 +288,8 @@
                         android:layout_gravity="center_vertical"
                         android:letterSpacing="0.05"
                         android:text="@string/sample_nm"
-                        android:textColor="@color/text_color"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
+                        android:textColor="@color/t3"
+                        android:textSize="17sp" />
 
                 </LinearLayout>
 
@@ -355,8 +356,9 @@
                             android:layout_gravity="center_vertical"
                             android:letterSpacing="0.05"
                             android:text="@string/date"
-                            android:textColor="@color/text_color"
-                            android:textSize="17sp" />
+                            android:textColor="@color/t2"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/tvDate"
@@ -365,9 +367,8 @@
                             android:layout_gravity="center_vertical"
                             android:letterSpacing="0.05"
                             android:text="@string/sample_dt"
-                            android:textColor="@color/text_color"
-                            android:textSize="17sp"
-                            android:textStyle="bold" />
+                            android:textColor="@color/t3"
+                            android:textSize="17sp" />
 
                     </LinearLayout>
 
@@ -385,8 +386,9 @@
                             android:layout_gravity="center_vertical"
                             android:letterSpacing="0.05"
                             android:text="@string/return_date"
-                            android:textColor="@color/text_color"
-                            android:textSize="17sp" />
+                            android:textColor="@color/t2"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/tvReDate"
@@ -395,9 +397,8 @@
                             android:layout_gravity="center_vertical"
                             android:letterSpacing="0.05"
                             android:text="@string/sample_dt"
-                            android:textColor="@color/text_color"
-                            android:textSize="17sp"
-                            android:textStyle="bold" />
+                            android:textColor="@color/t3"
+                            android:textSize="17sp" />
 
                     </LinearLayout>
 
@@ -466,8 +467,9 @@
                             android:layout_gravity="center_vertical"
                             android:letterSpacing="0.05"
                             android:text="@string/amount"
-                            android:textColor="@color/text_color"
-                            android:textSize="17sp" />
+                            android:textColor="@color/t2"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/tvAmount"
@@ -476,9 +478,8 @@
                             android:layout_gravity="center_vertical"
                             android:letterSpacing="0.05"
                             android:text="@string/sample_amt"
-                            android:textColor="@color/text_color"
-                            android:textSize="17sp"
-                            android:textStyle="bold" />
+                            android:textColor="@color/t3"
+                            android:textSize="17sp" />
 
                     </LinearLayout>
 
@@ -544,8 +545,9 @@
                             android:layout_gravity="center_vertical"
                             android:letterSpacing="0.05"
                             android:text="@string/comment"
-                            android:textColor="@color/text_color"
-                            android:textSize="17sp" />
+                            android:textColor="@color/t2"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/tvDesc"
@@ -554,9 +556,8 @@
                             android:layout_gravity="center_vertical"
                             android:letterSpacing="0.05"
                             android:text="@string/no_comment"
-                            android:textColor="@color/text_color"
-                            android:textSize="17sp"
-                            android:textStyle="bold" />
+                            android:textColor="@color/t3"
+                            android:textSize="17sp" />
 
                     </LinearLayout>
 
@@ -567,11 +568,6 @@
         </LinearLayout>
 
         <!--username ends-->
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1sp"
-            android:background="@color/colorGrey" />
 
 
     </LinearLayout>

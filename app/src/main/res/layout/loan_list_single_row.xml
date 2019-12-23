@@ -1,117 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="80dp"
     android:layout_margin="@dimen/margin_5dp"
     android:orientation="vertical">
 
 
-    <LinearLayout
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#ffffff"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imgTransType"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/margin_20dp"
-            android:layout_marginRight="@dimen/margin_5dp"
-            android:src="@drawable/coins_icon" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginRight="@dimen/margin_10dp"
+        app:cardBackgroundColor="@color/tw"
+        app:cardCornerRadius="@dimen/margin_10dp"
+        app:cardElevation="0dp"
+        app:cardUseCompatPadding="false">
 
         <LinearLayout
-            android:id="@+id/ll_list_item"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#ffffff"
-            android:orientation="vertical"
-            android:padding="5sp">
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/_tv_list_trans_type"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="2sp"
-                android:layout_marginTop="2sp"
-                android:text="@string/title"
-                android:textColor="@color/c4"
-                android:textSize="17sp" />
-
+            <ImageView
+                android:id="@+id/imgTransType"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:src="@drawable/coins_icon" />
 
             <LinearLayout
+                android:id="@+id/ll_list_item"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5sp"
-                android:orientation="vertical">
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:padding="5sp">
+
+                <TextView
+                    android:id="@+id/_tv_list_trans_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2sp"
+                    android:layout_marginTop="2sp"
+                    android:text="@string/title"
+                    android:textColor="@color/c4"
+                    android:textSize="17sp" />
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="3sp"
-                    android:weightSum="3">
+                    android:layout_marginLeft="5sp"
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:padding="3sp"
+                        android:weightSum="3">
 
-                        <TextView
-                            android:id="@+id/_tv_list_trans_date"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:letterSpacing="0.05"
-                            android:text="@string/sample_time"
-                            android:textColor="@color/c3"
-                            android:textSize="15sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/_tv_list_trans_amt"
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:letterSpacing="0.05"
-                            android:text="@string/sample_time"
-                            android:textColor="@color/c3"
-                            android:textSize="15sp"
-                            android:textStyle="bold" />
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/_tv_list_trans_date"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:letterSpacing="0.05"
+                                android:text="@string/sample_time"
+                                android:textColor="@color/c3"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/_tv_list_trans_amt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:letterSpacing="0.05"
+                                android:text="@string/sample_time"
+                                android:textColor="@color/c3"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/_tv_list_trans_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4sp"
+                        android:layout_marginTop="2sp"
+                        android:singleLine="true"
+                        android:text="@string/comment"
+                        android:textColor="@color/c33"
+                        android:textSize="@dimen/margin_12dp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
-                <TextView
-                    android:id="@+id/_tv_list_trans_desc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="4sp"
-                    android:layout_marginTop="2sp"
-                    android:singleLine="true"
-                    android:text="@string/comment"
-                    android:textColor="@color/c33"
-                    android:textSize="@dimen/margin_12dp"
-                    android:textStyle="bold" />
-
             </LinearLayout>
+
 
         </LinearLayout>
 
 
-    </LinearLayout>
+    </android.support.v7.widget.CardView>
 
 </LinearLayout>

@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/tw"
     android:orientation="vertical"
     android:scrollbars="none">
 
@@ -27,7 +27,7 @@
                     android:id="@+id/llAddParti"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/margin_50dp"
-                    android:background="@drawable/background_one"
+                    android:background="@drawable/comment_box"
                     android:orientation="horizontal"
                     android:padding="@dimen/margin_10dp">
 
@@ -39,8 +39,9 @@
                         android:layout_weight="1"
                         android:text="@string/add_prts"
                         android:textAllCaps="false"
-                        android:textColor="@color/a1"
-                        android:textSize="@dimen/margin_20dp" />
+                        android:textColor="@color/t2"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/text_size_20sp" />
 
 
                     <ImageView
@@ -82,6 +83,7 @@
                                 android:layout_margin="5dp"
                                 android:background="@drawable/comment_box"
                                 android:hint="@string/name"
+                                android:textColor="@color/t3"
                                 android:paddingLeft="10dp" />
 
                         </LinearLayout>
@@ -107,7 +109,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/prt_list_hint"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/t2"
+                            android:textStyle="bold"
                             android:textSize="20sp" />
 
                         <LinearLayout
@@ -134,7 +137,7 @@
                     android:id="@+id/llAddDet"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/margin_50dp"
-                    android:background="@drawable/background_one"
+                    android:background="@drawable/comment_box"
                     android:orientation="horizontal"
                     android:padding="@dimen/margin_10dp">
 
@@ -146,8 +149,9 @@
                         android:layout_weight="1"
                         android:text="@string/add_details"
                         android:textAllCaps="false"
-                        android:textColor="@color/a1"
-                        android:textSize="@dimen/margin_20dp" />
+                        android:textColor="@color/t2"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/text_size_20sp" />
 
 
                     <ImageView
@@ -174,7 +178,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/title"
-                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:textColor="@color/t2"
                         android:textSize="18sp" />
 
                     <EditText
@@ -185,14 +190,16 @@
                         android:layout_margin="5dp"
                         android:background="@drawable/comment_box"
                         android:hint="@string/title"
+                        android:textColor="@color/t3"
                         android:paddingLeft="10dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/exp_amount"
-                        android:textColor="@color/colorPrimary"
-                        android:textSize="18sp" />
+                        android:textStyle="bold"
+                        android:textColor="@color/t2"
+                        android:textSize="@dimen/text_size_18sp" />
 
                     <EditText
                         android:id="@+id/edtTotalAmount"
@@ -203,13 +210,15 @@
                         android:background="@drawable/comment_box"
                         android:hint="@string/rupee_sign"
                         android:inputType="number"
+                        android:textColor="@color/t3"
                         android:paddingLeft="10dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/date"
-                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:textColor="@color/t2"
                         android:textSize="18sp" />
 
                     <TextView
@@ -221,13 +230,15 @@
                         android:background="@drawable/comment_box"
                         android:paddingLeft="10dp"
                         android:text="@string/date"
+                        android:textColor="@color/t3"
                         android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/comment"
-                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:textColor="@color/t2"
                         android:textSize="18sp" />
 
                     <EditText
@@ -240,6 +251,7 @@
                         android:lines="3"
                         android:paddingLeft="10dp"
                         android:paddingTop="5dp"
+                        android:textColor="@color/t3"
                         android:text="N/A" />
 
                     <LinearLayout
@@ -254,7 +266,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:text="@string/paid_by"
-                            android:textColor="@color/c4" />
+                            android:textStyle="bold"
+                            android:textColor="@color/t2" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -290,7 +303,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:text="@string/wallet"
-                                    android:textColor="@color/c4" />
+                                    android:textStyle="bold"
+                                    android:textColor="@color/t2" />
 
                             </LinearLayout>
 
@@ -321,7 +335,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:text="@string/card"
-                                    android:textColor="@color/c4" />
+                                    android:textStyle="bold"
+                                    android:textColor="@color/t2" />
 
                             </LinearLayout>
 
@@ -347,9 +362,9 @@
                     android:layout_width="140dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:background="@drawable/comment_box"
+                    android:background="@drawable/btn_rounded_primary"
                     android:text="@string/save"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/tw"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 

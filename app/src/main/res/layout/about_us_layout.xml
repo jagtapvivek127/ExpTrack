@@ -20,7 +20,7 @@
             android:layout_gravity="center"
             android:letterSpacing="0.05"
             android:text="@string/welcome1"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/t1"
             android:textSize="@dimen/text_size_20sp"
             android:textStyle="bold" />
 
@@ -36,7 +36,7 @@
                 android:layout_gravity="center_vertical"
                 android:letterSpacing="0.05"
                 android:text="@string/welcome2"
-                android:textColor="@color/text_color"
+                android:textColor="@color/t2"
                 android:textSize="@dimen/text_size_17sp" />
 
             <TextView
@@ -46,7 +46,7 @@
                 android:layout_marginTop="@dimen/margin_10dp"
                 android:letterSpacing="0.05"
                 android:text="@string/welcome3"
-                android:textColor="@color/text_color"
+                android:textColor="@color/t2"
                 android:textSize="17sp" />
 
             <TextView
@@ -57,7 +57,7 @@
                 android:layout_marginTop="@dimen/margin_10dp"
                 android:letterSpacing="0.05"
                 android:text="@string/one_studios"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/t1"
                 android:textSize="@dimen/text_size_17sp" />
 
         </LinearLayout>

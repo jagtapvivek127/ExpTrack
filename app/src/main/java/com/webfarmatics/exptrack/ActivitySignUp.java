@@ -109,10 +109,6 @@ public class ActivitySignUp extends AppCompatActivity {
 
         database = AppDatabase.getInstance(this);
 
-        LinearLayout llBestBack = findViewById(R.id.llBestBack);
-        llBestBack.setAlpha(0.36f);
-
-
         String fontPath = "fonts/SAMAN___.TTF";
         Typeface typeface = Typeface.createFromAsset(getAssets(), fontPath);
 

@@ -109,6 +109,9 @@
     <string name="search_trans">Search</string>
 
 
+    <string name="ac_vfy_login">Please enter your password below to login.</string>
+
+
     <!--home drawer-->
     <string name="changeLanguage">Change Language</string>
     <string name="feedback">Feedback</string>

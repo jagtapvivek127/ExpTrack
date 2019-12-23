@@ -27,11 +27,9 @@ import java.util.Calendar;
 public class ActivityDashboard extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
-
     private int count = 0;
     private Context context;
     private String date = null;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,8 +89,6 @@ public class ActivityDashboard extends AppCompatActivity
         llCalculator.setOnClickListener(this);
         llBank.setOnClickListener(this);
         llGraph.setOnClickListener(this);
-        LinearLayout llBestBack = findViewById(R.id.llBestBack);
-        llBestBack.setAlpha(0.36f);
 
         ll_All_details.setOnClickListener(this);
         ll_Splitbill.setOnClickListener(this);

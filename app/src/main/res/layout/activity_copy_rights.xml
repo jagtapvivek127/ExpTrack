@@ -31,7 +31,7 @@
             android:layout_marginTop="@dimen/margin_5dp"
             android:letterSpacing="0.05"
             android:text="@string/copyright_warning8"
-            android:textColor="@color/text_color"
+            android:textColor="@color/t2"
             android:textSize="15sp" />
 
         <LinearLayout
@@ -46,7 +46,7 @@
                 android:layout_gravity="center_vertical"
                 android:letterSpacing="0.05"
                 android:text="@string/copyright_warning2"
-                android:textColor="@color/text_color"
+                android:textColor="@color/t2"
                 android:textSize="@dimen/text_size_16sp" />
 
             <TextView
@@ -57,7 +57,7 @@
                 android:layout_marginTop="@dimen/margin_10dp"
                 android:letterSpacing="0.05"
                 android:text="@string/copyright_warning3"
-                android:textColor="@color/text_color"
+                android:textColor="@color/t2"
                 android:textSize="15sp" />
 
             <TextView
@@ -68,7 +68,7 @@
                 android:layout_marginTop="@dimen/margin_5dp"
                 android:letterSpacing="0.05"
                 android:text="@string/copyright_warning4"
-                android:textColor="@color/text_color"
+                android:textColor="@color/t2"
                 android:textSize="15sp" />
 
             <TextView
@@ -78,7 +78,7 @@
                 android:layout_marginTop="@dimen/margin_10dp"
                 android:letterSpacing="0.05"
                 android:text="@string/copyright_warning5"
-                android:textColor="@color/text_color"
+                android:textColor="@color/t2"
                 android:textSize="@dimen/text_size_16sp" />
 
             <TextView
@@ -88,7 +88,7 @@
                 android:layout_marginTop="@dimen/margin_5dp"
                 android:letterSpacing="0.05"
                 android:text="@string/copyright_warning6"
-                android:textColor="@color/text_color"
+                android:textColor="@color/t2"
                 android:textSize="17sp" />
 
 
@@ -110,12 +110,12 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="@dimen/text_size_20sp"
-                android:background="@drawable/comment_box"
+                android:background="@drawable/btn_rounded_primary"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="@string/str_continue"
                 android:textAllCaps="false"
-                android:textColor="@color/text_color"
+                android:textColor="@color/tw"
                 android:textSize="20sp" />
 
         </LinearLayout>

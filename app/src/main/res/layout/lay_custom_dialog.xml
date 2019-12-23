@@ -29,7 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/warning"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/t2"
                 android:textSize="20sp"
                 android:textStyle="normal" />
 
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/verifying_warning1"
-            android:textColor="@color/black"
+            android:textColor="@color/t3"
             android:textSize="14sp"
             android:textStyle="normal" />
 
@@ -47,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/verifying_warning2"
-            android:textColor="@color/black"
+            android:textColor="@color/t3"
             android:textSize="14sp"
             android:textStyle="normal" />
 
@@ -55,7 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/verifying_warning3"
-            android:textColor="@color/black"
+            android:textColor="@color/t3"
             android:textSize="14sp"
             android:textStyle="normal" />
 
@@ -63,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/verifying_warning4"
-            android:textColor="@color/black"
+            android:textColor="@color/t3"
             android:textSize="14sp"
             android:textStyle="normal" />
 
@@ -81,10 +81,10 @@
                 android:layout_width="80dp"
                 android:layout_height="40dp"
                 android:layout_marginRight="10dp"
-                android:background="@drawable/comment_box"
+                android:background="@drawable/btn_rounded_primary"
                 android:text="@string/cancel"
                 android:textAllCaps="false"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/tw"
                 android:textStyle="bold" />
 
             <Button
@@ -92,10 +92,10 @@
                 android:layout_width="80dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/comment_box"
+                android:background="@drawable/btn_rounded_primary"
                 android:text="@string/clear"
                 android:textAllCaps="false"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/tw"
                 android:textStyle="bold"  />
 
         </LinearLayout>

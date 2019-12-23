@@ -18,46 +18,42 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/thank_you"
-            android:textColor="@color/c4"
+            android:textColor="@color/t2"
             android:textSize="40sp"
             android:textStyle="bold" />
-
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fr_use_app"
-            android:textColor="@color/c4"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textColor="@color/t2"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/snd_fed_bk_at"
-            android:textColor="@color/c4"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textColor="@color/t2"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/email"
-            android:textColor="@color/c3"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textColor="@color/t3"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnSendFeedback"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@drawable/comment_box"
+            android:background="@drawable/btn_rounded_primary"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:text="@string/send_now"
             android:textAllCaps="false"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/tw"
             android:textSize="20sp" />
 
     </LinearLayout>

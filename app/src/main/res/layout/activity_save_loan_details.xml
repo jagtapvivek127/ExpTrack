@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:orientation="vertical">
 
     <TextView
@@ -13,7 +12,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginRight="10dp"
         android:text="@string/select_loan_type"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/t2"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -58,7 +57,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="@string/given"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/t2"
                             android:textSize="17sp" />
 
                         <RadioButton
@@ -67,7 +66,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="@string/taken"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/t2"
                             android:textSize="17sp" />
 
                     </RadioGroup>
@@ -94,8 +93,9 @@
                                 android:layout_marginLeft="10dp"
                                 android:layout_marginRight="10dp"
                                 android:text="@string/name"
-                                android:textColor="@color/colorPrimaryDark"
-                                android:textSize="16sp" />
+                                android:textColor="@color/t2"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
 
                         </LinearLayout>
 
@@ -113,6 +113,7 @@
                                 android:ems="10"
                                 android:hint="@string/name"
                                 android:paddingLeft="10dp"
+                                android:textColor="@color/t3"
                                 android:textSize="15sp" />
 
                         </LinearLayout>
@@ -141,8 +142,9 @@
                                 android:layout_marginLeft="10dp"
                                 android:layout_marginRight="10dp"
                                 android:text="@string/exp_amount"
-                                android:textColor="@color/colorPrimaryDark"
-                                android:textSize="16sp" />
+                                android:textColor="@color/t2"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
 
                         </LinearLayout>
 
@@ -161,6 +163,7 @@
                                 android:hint="@string/rupee_sign"
                                 android:inputType="number"
                                 android:paddingLeft="10dp"
+                                android:textColor="@color/t3"
                                 android:textSize="15sp" />
 
                         </LinearLayout>
@@ -189,8 +192,9 @@
                                 android:layout_marginLeft="10dp"
                                 android:layout_marginRight="10dp"
                                 android:text="@string/date"
-                                android:textColor="@color/colorPrimaryDark"
-                                android:textSize="16sp" />
+                                android:textColor="@color/t2"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
 
                         </LinearLayout>
 
@@ -208,6 +212,7 @@
                                 android:gravity="center_vertical"
                                 android:paddingLeft="10dp"
                                 android:text="@string/date"
+                                android:textColor="@color/t3"
                                 android:textSize="15sp" />
 
                         </LinearLayout>
@@ -236,8 +241,9 @@
                                 android:layout_marginLeft="10dp"
                                 android:layout_marginRight="10dp"
                                 android:text="@string/return_date"
-                                android:textColor="@color/colorPrimaryDark"
-                                android:textSize="16sp" />
+                                android:textColor="@color/t2"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
 
                         </LinearLayout>
 
@@ -255,6 +261,7 @@
                                 android:gravity="center_vertical"
                                 android:paddingLeft="10dp"
                                 android:text="@string/no_comment"
+                                android:textColor="@color/t3"
                                 android:textSize="15sp" />
 
                         </LinearLayout>
@@ -264,18 +271,18 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="15dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
                         android:text="@string/comment"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="16sp" />
+                        android:textColor="@color/t2"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
                         android:orientation="vertical">
 
                         <EditText
@@ -289,6 +296,7 @@
                             android:lines="3"
                             android:paddingLeft="10dp"
                             android:text="@string/no_comment"
+                            android:textColor="@color/t3"
                             android:textSize="15sp">
 
                         </EditText>
@@ -366,7 +374,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:text="@string/wallet"
-                            android:textColor="@color/c4" />
+                            android:textColor="@color/t2"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
@@ -397,7 +406,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:text="@string/card"
-                            android:textColor="@color/c4" />
+                            android:textColor="@color/t2"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
@@ -417,9 +427,9 @@
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:background="@drawable/comment_box"
+                        android:background="@drawable/btn_rounded_primary"
                         android:text="@string/save"
-                        android:textColor="@color/colorPrimary"
+                        android:textColor="@color/tw"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
